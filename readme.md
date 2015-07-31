@@ -45,7 +45,7 @@ git clone --recursive https://github.com/Mixd/wp-deploy.git new-project
 
 That will clone the repository into a folder name of your choosing and it'll also download any submodules included within the repository. In this case, we have included WordPress.
 
-Next, we need to reinialise it as its own repository rather than having it connected to the current origin. We've create a simple bash script that does most of the leg work for you, so once you've cloned the repo just run:
+Next, we need to reinitialise it as its own repository rather than having it connected to the current origin. We've create a simple bash script that does most of the leg work for you, so once you've cloned the repo just run:
 
 ```sh
 $ bash config/prepare.sh
